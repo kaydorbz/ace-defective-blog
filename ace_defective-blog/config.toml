@@ -1,0 +1,18 @@
+title = "Ace Defective"
+base_url = "https://ace-defective.blog"
+description = "Kayleigh building passion projects in public with a dead sysadmin ghost"
+compile_sass = false
+minify_html = true
+generate_feed = true
+feed_filename = "rss.xml"
+taxonomies = []
+
+[markdown]
+highlight_code = true
+render_emoji = true
+highlight_theme = "gruvbox-dark"
+
+[extra]
+author = "Kayleigh"
+cigarette_goal = 50
+cigarette_current = 0
