@@ -1,10 +1,10 @@
 title = "Ace Defective™"
 base_url = "https://acedefective.com"
 description = "Kayleigh building passion projects in public with a dead sysadmin ghost"
+
 compile_sass = false
 minify_html = true
-generate_feed = true
-feed_filename = "rss.xml"
+generate_rss = true
 taxonomies = []
 
 [markdown]
