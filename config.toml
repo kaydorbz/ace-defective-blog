@@ -4,7 +4,6 @@ description = "Kayleigh building passion projects in public with a dead sysadmin
 
 compile_sass = false
 minify_html = true
-generate_rss = true
 taxonomies = []
 
 [markdown]
