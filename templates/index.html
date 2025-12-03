@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ config.title }}</h1>
+<p class="subtitle">{{ config.description }}</p>
+
+<h2>Latest posts</h2>
+{% for page in section.pages %}
+<article>
+  <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+  <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+  <p>{{ page.summary | safe }}</p>
+</article>
+{% endfor %}
+
+<footer>
+  Cigarettes funded: {{ config.extra.cigarette_current }} / {{ config.extra.cigarette_goal }}
+</footer>
+{% endblock content %}
